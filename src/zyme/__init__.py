@@ -60,7 +60,7 @@ toml_config = toml.loads(_toml_text)
 
 
 __title__ = "zyme"
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 __author__ = "Stephen R A King"
 __description__ = "placeholder"
 __email__ = "stephen.ra.king@gmail.com"
