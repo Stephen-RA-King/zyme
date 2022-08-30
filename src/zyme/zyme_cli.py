@@ -7,18 +7,14 @@ import click
 
 
 @click.group()
-def info() -> None:
+def cli() -> None:
     """Create a container to which other commands can be attached."""
 
 
-@info.command(help="Display Author Name")
+@cli.command(help="Display Author Name")
 @click.option("-verbose", "--verbose", is_flag=True, help="set the verbosity")
 def author(verbose: str) -> None:
     """Returns details about the Author."""
     click.echo("Author name: Stephen R A King")
     if verbose:
         click.echo("Author eMail: stephen.ra.king@gmail.com")
-
-
-if __name__ == "__main__":
-    info()
