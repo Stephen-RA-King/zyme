@@ -89,7 +89,7 @@ Created with Cookiecutter template: [**cc_template**][cc_template-url] version 1
 [black-image]: https://img.shields.io/badge/code%20style-black-000000.svg
 [black-url]: https://github.com/psf/black
 [cc_template-url]: https://github.com/Stephen-RA-King/cc_template
-[codeclimate-image]: https://api.codeclimate.com/v1/badges/7fc352185512a1dab75d/maintainability
+[codeclimate-image]: https://api.codeclimate.com/v1/badges/de312dc1e12bd8a1ca8a/maintainability
 [codeclimate-url]: https://codeclimate.com/github/Stephen-RA-King/zyme/maintainability
 [codecov-image]: https://codecov.io/gh/Stephen-RA-King/zyme/branch/main/graph/badge.svg
 [codecov-url]: https://app.codecov.io/gh/Stephen-RA-King/zyme
