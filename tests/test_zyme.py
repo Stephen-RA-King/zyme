@@ -5,7 +5,12 @@ To use tests either:
             pip install -e .
     2 - Import pathmagic.py to enable tests to find the package
 """
+
+# Core Library modules
+import sys
+
 # Third party modules
+import pytest
 
 # First party modules
 from zyme import zyme
